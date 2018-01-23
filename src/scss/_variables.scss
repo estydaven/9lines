@@ -1,0 +1,26 @@
+// stylelint-disable scss/dollar-variable-empty-line-before
+
+// COLORS
+
+$color-black: #000;
+$color-white: #fff;
+$color-blue: #0093d7;
+$color-body: #f0f0f0;
+$color-gray: #eeeeee;
+$low-section-color: #2ecc71;
+$middle-section-color: #f1c40f;
+$hight-section-color: #e74c3c;
+$pointers-color: #2c3e50;
+$color_desert_storm_approx: #faf9f7;
+$color_lightning_yellow_approx: #ffc815;
+$color_atlantis_approx: #a3cd3b;
+$dark-gray: #3e3d40;
+// FONTS
+
+$font-family-roboto: 'Roboto', sans-serif;
+
+// Foundation
+
+@import "../../node_modules/foundation-sites/scss/foundation";
+
+@include foundation-everything;

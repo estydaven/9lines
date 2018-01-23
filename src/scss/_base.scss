@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+html {
+	box-sizing: border-box;
+}
+
+body{
+	background: $color-body;	
+}
+
+ul{
+	list-style: none;
+}

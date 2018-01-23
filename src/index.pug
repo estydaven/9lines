@@ -1,0 +1,116 @@
+extends pug/base
+
+append vars
+	- html.classList.push('page-index')
+
+block content
+	.grid-container
+		.wrapper
+			.content-wrapper
+				.grid-wrapper.grid-wrapper_first
+					.grid-x.grid-margin-x
+						.cell.large-2.medium-2.small-12
+							.picture
+								img.picture__img(src="../images/me.png")
+						.cell.large-10.medium-10.small-12
+							ul.list
+								li.list__item Валентина Лайковская
+								li.list__item 11.05.1988
+								li.list__item г. Гродно (Беларусь)
+								li.list__item email: esetnod1111@gmail.com
+			.content-wrapper
+				.grid-wrapper.grid-wrapper
+					h3.title Навыки
+					.grid-x.grid-margin-x.large-up-4.medium-up-4.small-up-2
+						.cell
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| HTML5
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| CSS3
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| БЭМ			
+						.cell
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| SASS
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| LESS
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| GULP
+						.cell
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| VANILLAJS
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| ANGULAR
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| JQUERY
+						.cell
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| GIT
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| FOUNDATION
+							.checkbox
+								label.checkbox__label
+									input.checkbox__input(type='checkbox')
+									i.fa.fa-square
+									| BOOTSTRAP
+			.content-wrapper
+				.grid-wrapper.grid-wrapper
+					.grid-x.grid-margin-x.large-up-2.medium-up-2.small-up-12
+						.cell
+							.speedometer__box.is-device-mobile
+								.speedometr
+									svg.meter
+										circle.meter-left(r="96" cx="135" cy="142")
+										circle.meter-center(r="96" cx="136" cy="142")
+										circle.meter-right(r="96" cx="138" cy="142")
+										polygon#arrow.meter-clock(points="129,145 137,90 145,145")
+										circle.meter-circle(r="8" cx="137" cy="145")
+						.cell
+							input#testParam(type='range', min='0', max='100')
+							p.level.is-device-mobile Мой уровень владения 
+								|
+								br
+								|JavaScript
+							p#level__number.is-device-mobile 0
+							
+								
+								
+
+						
+
+					
+
+				
